@@ -15,4 +15,10 @@ class FizzBuzzTest {
         val fizzBuzz = FizzBuzz()
         assertEquals("2", fizzBuzz.fizzBuzzFun(2))
     }
+
+    @Test
+    fun given_any_number_then_it_returns_this_number_to_string(){
+        val fizzBuzz = FizzBuzz()
+        assertEquals("94", fizzBuzz.fizzBuzzFun(94))
+    }
 }
