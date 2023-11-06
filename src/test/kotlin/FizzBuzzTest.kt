@@ -27,4 +27,10 @@ class FizzBuzzTest {
         val fizzBuzz = FizzBuzz()
         assertEquals("Fizz", fizzBuzz.fizzBuzzFun(3))
     }
+
+    @Test
+    fun given_the_number_5_then_it_returns_buzz_to_string(){
+        val fizzBuzz = FizzBuzz()
+        assertEquals("Buzz", fizzBuzz.fizzBuzzFun(5))
+    }
 }
