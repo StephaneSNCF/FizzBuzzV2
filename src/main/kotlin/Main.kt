@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import fizzBuzz.FizzBuzz
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+
+    val fizzBuzz = FizzBuzz()
+
+    for(i in 1..100){
+        println(fizzBuzz.fizzBuzzFun(i))
+    }
 }
